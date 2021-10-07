@@ -1,3 +1,3 @@
-let emailRegex = RegExp("^abc");
-let input = "abc";
+let emailRegex = RegExp("^abc@[a-z]+");
+let input = "abc@bridgelabz";
 console.log(emailRegex.test(input));
